@@ -1,0 +1,13 @@
+<p>create-book works!</p>
+<label  for="title">Title</label>
+<input id="title" type="text"[(ngModel)]="title">
+
+<label  for="author">Author</label>
+<input id="author" type="text"[(ngModel)]="author">
+
+<label  for="bookcondition">Condition</label>
+<input id="bookcondition" type="number" [(ngModel)]="bookcondition">
+
+<button (click)="createBook()">Create</button>
+
+<a routerLink="/display" routerLinkActive="display">Display Book</a>

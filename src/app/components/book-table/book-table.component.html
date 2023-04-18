@@ -1,0 +1,18 @@
+<p>book-table works!</p>
+
+<table *ngFor="let book of books">
+    <thead >
+        <th>Id</th>
+        <th>Title</th>
+        <th>Author</th>
+        <th>Condition</th>
+        <th>ReturnDate</th>
+    </thead>
+    <tr>
+        <td>{{book.bookId}}</td>
+        <td>{{book.title}}</td>
+        <td>{{book.author}}</td>
+        <td>{{book.bookCondition}}</td>
+        <td>{{book.returnDate}}</td>
+    </tr>
+</table>
